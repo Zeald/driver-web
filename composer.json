@@ -16,16 +16,30 @@
     ],
     "require": {
         "php": ">=7.0",
-        "botman/botman": "~3.0"
+        "botman/botman": "dev-laravel7-support"
     },
     "require-dev": {
-        "botman/studio-addons": "~1.0",
-        "illuminate/support": "~5.5.0",
-        "phpunit/phpunit": "~5.0",
+        "botman/studio-addons": "dev-laravel7-support",
+        "illuminate/support": "^7.0",
+        "phpunit/phpunit": "^9.0",
         "mockery/mockery": "dev-master",
-        "botman/driver-facebook": "~2.0",
+        "botman/driver-facebook": "dev-laravel7-support",
         "ext-curl": "*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zeald/fork.botman"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zeald/fork.studio-addons"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Zeald/fork.driver-facebook"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "BotMan\\Drivers\\Web\\": "src/"
