@@ -16,14 +16,14 @@
     ],
     "require": {
         "php": ">=7.0",
-        "botman/botman": "dev-laravel7-support"
+        "botman/botman": "dev-master"
     },
     "require-dev": {
-        "botman/studio-addons": "dev-laravel7-support",
+        "botman/studio-addons": "dev-master",
         "illuminate/support": "^7.0",
         "phpunit/phpunit": "^9.0",
         "mockery/mockery": "dev-master",
-        "botman/driver-facebook": "dev-laravel7-support",
+        "botman/driver-facebook": "dev-master",
         "ext-curl": "*"
     },
     "repositories": [
